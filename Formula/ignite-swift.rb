@@ -1,8 +1,8 @@
 class IgniteSwift < Formula
   desc "Static site builder for Swift developers"
   homepage "https://github.com/Ignite-Swift/Ignite"
-  url "https://github.com/Ignite-Swift/Ignite/archive/refs/tags/0.7.1.tar.gz"
-  sha256 "9d2b87d49a5c304530058a4866372048df556264851a39d84644efb3cf95e332"
+  url "https://github.com/Ignite-Swift/Ignite/archive/refs/tags/0.7.2.tar.gz"
+  sha256 "9f48576870ef7260a8fb755716bc855acfc6f49ff09bcee688de0618a1694cbf"
   license "MIT"
 
   depends_on "python@3.15"
