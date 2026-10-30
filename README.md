@@ -13,5 +13,3 @@ brew tap ignite-swift/ignite
 brew trust ignite-swift/ignite
 brew install ignite-swift
 ```
-
-Homebrew refuses to load formulae from a tap you haven't trusted, which is why the second form needs `brew trust`. Installing with the full `ignite-swift/ignite/ignite-swift` name trusts the formula for you.
