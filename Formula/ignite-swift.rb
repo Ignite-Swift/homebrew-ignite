@@ -5,6 +5,12 @@ class IgniteSwift < Formula
   sha256 "9f48576870ef7260a8fb755716bc855acfc6f49ff09bcee688de0618a1694cbf"
   license "MIT"
 
+  bottle do
+    root_url "https://ghcr.io/v2/ignite-swift/ignite"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "7fc7d55fd4932d748f9c44af64ad4815c0f8143f2405030e4dacc51c7ba8ffd8"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "2a3365f8534ef56523385a0ee212579a017feb992179a0b269283dc3a269e01f"
+  end
+
   depends_on "python@3.15"
 
   # Needed at build time and at run time, since `ignite build` compiles the
